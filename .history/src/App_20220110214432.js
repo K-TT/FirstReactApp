@@ -13,7 +13,7 @@ function Main(props) {
   return (
     <section>
       <p>Now I got a {props.adjective} skill for the stack</p>
-      <img src={mernLogo} height={200} alt="MERN Stack: MongoDB, ExpressJS, ReactJS, NodeJS"/>
+      <img src={mernLogo }/>
       <ul style={{textAlign:"left"} }>
         {props.skills.map((skill) => (
           <li key={skill.id}>{skill.title}</li>
