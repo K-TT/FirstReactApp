@@ -19,9 +19,7 @@ function App({ login }) {
       .catch(setError);
   }, [login]);
 
-  if (loading) return <h1>Loading...</h1>;
-  if (error) return <pre>{JSON.stringify(error, null, 2)}</pre>;
-  if (!data) return null;
+if (loading retuern)
 
   if (data) { 
     return (
