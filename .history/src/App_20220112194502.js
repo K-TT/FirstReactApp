@@ -1,9 +1,10 @@
 import React, { useState, useEffect} from 'react';
 import './App.css';
+import mernLogo from './mern-logo.jpeg';
 
+//https://api.github.com/users/K-TT
 
-
-function App() {
+function App({ login }) {
  
   return (
     <div>

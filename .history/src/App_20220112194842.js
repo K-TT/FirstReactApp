@@ -3,7 +3,7 @@ import './App.css';
 
 
 
-function App() {
+function App({ login }) {
  
   return (
     <div>
